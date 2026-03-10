@@ -1,0 +1,31 @@
+# HPC Vector Operations using CUDA
+High Performance Computing (HPC) is used to perform large computations faster using parallel processing. GPUs can execute many operations at the same time, which makes them faster than CPUs for certain tasks.
+
+CUDA (Compute Unified Device Architecture) is a parallel computing platform developed by NVIDIA that allows programmers to use GPUs for general purpose computing.
+
+## Vector Addition
+
+Vector addition is an operation where two vectors are added element by element.
+
+Example:
+A = [1, 2, 3]
+B = [4, 5, 6]
+
+Result:
+C = [5, 7, 9]
+
+In this program, vector addition is implemented using both CPU and GPU. The GPU performs the addition using parallel threads which improves performance.
+
+## Vector Multiplication
+
+Vector multiplication multiplies two vectors element by element.
+
+Example:
+A = [1, 2, 3]
+B = [4, 5, 6]
+
+Result:
+C = [4, 10, 18]
+This program also compares the execution time of CPU and GPU implementations.
+## Conclusion
+Using CUDA and GPU parallel processing can significantly improve the speed of large computations compared to sequential CPU execution.
